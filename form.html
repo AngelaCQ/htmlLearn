@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+</head>
+<body>
+    <form action="#">
+        <label for="username" >用户名</label>
+        <input type="text" id="username" name="username" placeholder="请输入你的名字" required maxlength="15" minlength="5">
+        <br><br>
+        <label for="pwd">密码</label>
+        <input type="password" id="pwd" placeholder="请输入你的密码" required>
+        <br><br>
+        <label for="avatar">头像</label>
+        <input type="file" name="avatar" id="avatar" required accept="img/*">
+        <br><br>
+        <label >性别</label>
+        <input type="radio"  name="gender">男
+        <input type="radio"  name="gender">女
+        <input type="radio"  name="gender">unisex
+        <br><br>
+        <label for="hobby">爱好</label>
+        <input type="checkbox" id="hobby" name="hobby">唱歌
+        <input type="checkbox" id="hobby" name="hobby">跳舞
+        <input type="checkbox" id="hobby" name="hobby">打球
+        <br><br>
+        <button type="submit">提交</button>
+    </form>
+
+    
+</body>
+</html>
